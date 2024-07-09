@@ -1,0 +1,16 @@
+{
+  "name": "proxy-https",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:proxy": "NODE_TLS_REJECT_UNAUTHORIZED=0 GLOBAL_AGENT_HTTP_PROXY=http://127.0.0.1:8000 node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "global-agent": "^3.0.0"
+  }
+}
